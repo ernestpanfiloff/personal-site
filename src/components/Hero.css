@@ -72,3 +72,26 @@
     color: #FEFEFF;
     transition: all 0.5s ease;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .Hero {
+        grid-template-columns: 1fr;
+        grid-template-areas: "Hero-Content";
+    }
+
+    .Hero-Photo {
+        display: none;
+    }
+
+    .Hero-Content {
+        grid-area: Hero-Content;
+        text-align: center;
+    }
+
+    .Hero-Content-Icons {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
