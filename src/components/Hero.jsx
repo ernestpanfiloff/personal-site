@@ -8,7 +8,11 @@ export default class Hero extends React.Component {
             document.querySelector(".highlight"),
             { type: "highlight", color: "#FF002E" }
         );
-        highlight.show();
+
+        setTimeout(() => {
+            highlight.show(); // show the annotation
+        }, 1000); 
+        
     }
 
     render() {
