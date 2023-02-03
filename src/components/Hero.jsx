@@ -25,7 +25,7 @@ export default class Hero extends React.Component {
                     </h2>
 
                     <h2 className="Hero-Content-Title-Mobile">
-                        👋 Hi! <br /> I'm <span className="highlight">Ernest.</span>
+                        👋 Hi! <br /> I'm <span className="highlight red">Ernest.</span>
                     </h2>
 
                     <p className="Hero-Content-Subtitle">I'm a front-end developer, currently based in London, England. </p>
