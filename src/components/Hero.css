@@ -26,6 +26,10 @@
     font-weight: 400;
 }
 
+.Hero-Content-Title-Mobile {
+    display: none;
+}
+
 .Hero-Content-Subtitle {
     color: #BABABA;
     font-family: "Inter", sans-serif;
@@ -94,8 +98,18 @@
         align-items: center;
     }
 
-        .Hero-Content-Title {
-            font-size: 4rem;
-        }
+    .Hero-Content-Title {
+        font-size: 4rem;
+        display: none;
+    }
+
+    .Hero-Content-Title-Mobile {
+        display: block;
+        color: #FEFEFF;
+        font-family: 'Unna', serif;
+        font-size: 3.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
 
 }

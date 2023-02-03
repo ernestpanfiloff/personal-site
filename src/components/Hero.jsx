@@ -12,7 +12,7 @@ export default class Hero extends React.Component {
         setTimeout(() => {
             highlight.show(); // show the annotation
         }, 1000); 
-        
+
     }
 
     render() {
@@ -23,6 +23,11 @@ export default class Hero extends React.Component {
                     <h2 className="Hero-Content-Title">
                         👋 Hi! I'm <span className="highlight">Ernest.</span>
                     </h2>
+
+                    <h2 className="Hero-Content-Title-Mobile">
+                        👋 Hi! <br /> I'm <span className="highlight">Ernest.</span>
+                    </h2>
+
                     <p className="Hero-Content-Subtitle">I'm a front-end developer, currently based in London, England. </p>
 
 
