@@ -4,13 +4,6 @@
     gap: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-
 
 /* PROJECT CONTENT */
 .Projects-Project {
@@ -91,4 +84,13 @@
     border-radius: 50%;
     background-color: #F0E05B;
 
+}
+
+
+
+
+@media (max-width: 768px) {
+    .Projects {
+        grid-template-columns: 1fr;
+    }
 }
