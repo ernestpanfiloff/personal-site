@@ -94,4 +94,8 @@
         align-items: center;
     }
 
+        .Hero-Content-Title {
+            font-size: 4rem;
+        }
+
 }
