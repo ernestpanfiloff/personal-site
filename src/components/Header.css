@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* TITLE */
+.Header-Title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+    font-family: 'Unna', serif;
+    color: #FEFEFF;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+
+
+
+
+/* LINKS */
+.Header-Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Header-Links a {
+    text-decoration: none;
+    color: #BABABA;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.Header-Links a:hover {
+    color: #FEFEFF;
+    transition: all 0.5s ease;
+}

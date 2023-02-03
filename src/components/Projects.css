@@ -1,0 +1,94 @@
+.Projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* PROJECT CONTENT */
+.Projects-Project {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    border: 1px solid #2C2C2C;
+    background-color: #212120;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.Projects-Project h4 {
+    color: #FEFEFF;
+    font-weight: 400;
+}
+
+.Projects-Project p {
+    color: #BABABA;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.Projects-Title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #FEFEFF;
+}
+
+.Projects-Project-Tools {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    color: #BABABA;
+    font-size: 0.75rem;
+}
+
+
+
+
+
+
+/* PROJECT TOOLS  */
+.Projects-Project-Tools-Item {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+}
+
+.html {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #E24C27;
+    border-radius: 50%;
+}
+
+.css {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #563D7C;
+}
+
+.js {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #F0E05B;
+
+}

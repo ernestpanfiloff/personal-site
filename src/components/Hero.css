@@ -1,0 +1,74 @@
+.Hero {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Hero-Photo Hero-Content Hero-Content";
+    align-items: center;
+}
+
+.Hero-Photo {
+    grid-area: Hero-Photo;
+}
+
+.Hero-Content {
+    grid-area: Hero-Content;
+}
+
+.Hero-Content-Title {
+    color: #FEFEFF;
+    font-family: 'Unna', serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.Hero-Content-Subtitle {
+    color: #BABABA;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.Hero-Photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.Hero-Photo img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+
+
+
+
+.Hero-Content-Icons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+
+.Hero-Content-Icons-Icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #BABABA;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.Hero-Content-Icons-Icon:hover {
+    color: #FEFEFF;
+    transition: all 0.5s ease;
+}
