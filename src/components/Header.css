@@ -19,6 +19,28 @@ header {
     font-weight: 400;
 }
 
+.Header-Title-Mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .Header-Title {
+        display: none;
+    }
+
+    .Header-Title-Mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0rem;
+        font-family: 'Unna', serif;
+        color: #FEFEFF;
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+}
+
+
 
 
 
