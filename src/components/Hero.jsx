@@ -9,9 +9,11 @@ export default class Hero extends React.Component {
             { type: "highlight", color: "#FF002E" }
         );
 
-        setTimeout(() => {
-            highlight.show(); // show the annotation
-        }, 1000); 
+        // Run highlight.show(); when page finished loading
+        window.addEventListener("load", () => {
+            highlight.show();
+        }
+        );
 
     }
 
