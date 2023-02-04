@@ -58,6 +58,7 @@
 /* PROJECT TOOLS  */
 .Projects-Project-Tools-Item {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 0.25rem;
 }
@@ -82,7 +83,7 @@
     background-color: #563D7C;
 }
 
-.js {
+.javascript {
     position: relative;
     top: 1px;
     display: inline-block;
