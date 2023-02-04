@@ -17,7 +17,6 @@ export default class Hero extends React.Component {
 
     }
 
-
     render() {
         return (
             <div className="Hero">
@@ -32,7 +31,6 @@ export default class Hero extends React.Component {
                     </h2>
 
                     <p className="Hero-Content-Subtitle">I'm a front-end developer, currently based in London, England. </p>
-
 
                     <div className="Hero-Content-Icons">
                         <div className="Hero-Content-Icons-Icon">
