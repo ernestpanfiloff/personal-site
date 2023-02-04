@@ -16,7 +16,7 @@ export default class Hero extends React.Component {
         );
 
     }
-    
+
 
     render() {
         return (
@@ -37,11 +37,11 @@ export default class Hero extends React.Component {
                     <div className="Hero-Content-Icons">
                         <div className="Hero-Content-Icons-Icon">
                             <img src="github.png" alt="" />
-                            <p>github</p>
+                            <p><a href="https://github.com/ernestpanfiloff" alt="link to github" target="_blank">github</a></p>
                         </div>
                         <div className="Hero-Content-Icons-Icon">
                             <img src="linkedin.png" alt="" />
-                            <p>linkedin</p>
+                            <p><a href="https://www.linkedin.com/in/ernestaspanfilovas/" alt="link to github" target="_blank">linkedin</a></p>
                         </div>
                         <div className="Hero-Content-Icons-Icon">
                             <img src="cv.png" alt="" />
