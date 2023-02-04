@@ -24,11 +24,11 @@ export default class Hero extends React.Component {
                 <div class="Hero-Photo"><img src="me.jpg" alt="" /></div>
                 <div class="Hero-Content">
                     <h2 className="Hero-Content-Title">
-                        👋 Hi! I'm <span className="highlight">Ernest.</span>
+                        <span class="wave">👋</span> Hi! I'm <span className="highlight">Ernest.</span>
                     </h2>
 
                     <h2 className="Hero-Content-Title-Mobile">
-                        👋 Hi! <br /> I'm <span className="highlight red">Ernest.</span>
+                        <span class="wave">👋</span> Hi! <br /> I'm <span className="highlight red">Ernest.</span>
                     </h2>
 
                     <p className="Hero-Content-Subtitle">I'm a front-end developer, currently based in London, England. </p>
