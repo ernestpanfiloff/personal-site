@@ -15,10 +15,17 @@
         box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
-.Projects-Project h4 {
+.Projects-Project h4 a {
     color: #FEFEFF;
     font-weight: 400;
+    text-decoration: none;
 }
+
+.Projects-Project h4 a:hover {
+    text-decoration: underline;
+}
+
+
 
 .Projects-Project p {
     color: #BABABA;
@@ -90,7 +97,7 @@
 
 
 @media (max-width: 768px) {
-    .Projects {
-        grid-template-columns: 1fr;
-    }
+  .Projects {
+    grid-template-columns: 1fr;
+  }
 }
