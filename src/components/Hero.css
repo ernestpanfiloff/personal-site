@@ -26,6 +26,25 @@
     font-weight: 400;
 }
 
+.Hero-Content-Badge{
+    margin-bottom: 1rem;
+}
+
+.Hero-Content-Badge a {
+    text-decoration: none;
+    color: #FEFEFF;
+    background-color: #00B020;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.Hero-Content-Badge a:hover {
+    background-color: rgb(0, 124, 25);
+    transition: all 0.5s ease;
+}
+
 .wave:hover {
     animation-name: wave-animation;
     animation-duration: 2.5s;

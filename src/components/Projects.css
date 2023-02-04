@@ -12,7 +12,7 @@
     padding: 2rem 1.5rem;
     border: 1px solid #2C2C2C;
     background-color: #212120;
-        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .Projects-Project h4 a {
@@ -26,7 +26,6 @@
 }
 
 
-
 .Projects-Project p {
     color: #BABABA;
     font-weight: 200;
@@ -35,11 +34,35 @@
 }
 
 .Projects-Title {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Projects-Title h3 {
+    color: #FEFEFF;
     font-size: 1.25rem;
     font-weight: 500;
-    margin-bottom: 1rem;
-    color: #FEFEFF;
 }
+
+.Projects-Title button {
+    background-color: #2C2C2C;
+    border: none;
+    color: #FEFEFF;
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.Projects-Title button:hover {
+    background-color: #474647;
+    transition: all 0.5s ease;
+}
+
 
 .Projects-Project-Tools {
     display: flex;
@@ -94,11 +117,22 @@
 
 }
 
+.react {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #81E1FD;
+
+}
+
 
 
 
 @media (max-width: 768px) {
-  .Projects {
-    grid-template-columns: 1fr;
-  }
+    .Projects {
+        grid-template-columns: 1fr;
+    }
 }

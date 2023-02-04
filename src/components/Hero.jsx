@@ -22,6 +22,11 @@ export default class Hero extends React.Component {
             <div className="Hero">
                 <div class="Hero-Photo"><img src="me.jpg" alt="" /></div>
                 <div class="Hero-Content">
+                    <p className="Hero-Content-Badge"><a href="https://www.linkedin.com/in/ernestaspanfilovas/opportunities/job-opportunities/details/?profileUrn=urn%3Ali%3Afs_normalized_profile%3AACoAAAmC3r8Bn8D0uzFZGz73VCham0zhLlcPFbU" alt="Link to Linkedin" target="_blank">
+                        I'm open to work!
+                    </a></p>
+
+
                     <h2 className="Hero-Content-Title">
                         <span class="wave">👋</span> Hi! I'm <span className="highlight">Ernest.</span>
                     </h2>
@@ -45,7 +50,9 @@ export default class Hero extends React.Component {
                             <img src="cv.png" alt="" />
                             <p>resume</p>
                         </div>
+
                     </div>
+
 
                 </div>
             </div>

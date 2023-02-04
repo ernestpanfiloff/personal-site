@@ -3,7 +3,11 @@ import "./Projects.css";
 export default function Projects({ projects }) {
     return (
         <>
-            <h3 className="Projects-Title">⭐ Featured projects</h3>
+            <div className="Projects-Title">
+                <h3>⭐ Featured projects</h3>
+                <a href="https://github.com/ernestpanfiloff?tab=repositories"><button>View more...</button></a>
+            </div>
+
             <section className="Projects">
                 {projects
                     .filter(project => project.isFeatured)
