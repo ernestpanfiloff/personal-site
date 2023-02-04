@@ -9,7 +9,7 @@ export default function Projects({ projects }) {
                     .filter(project => project.isFeatured)
                     .map(project => (
                         <article className="Projects-Project" key={project.id}>
-                            <h4><a href={project.url}>{project.name}</a></h4>
+                            <h4><a href={project.url} alt={project.name} target="_blank ">{project.name}</a></h4>
                             <p>{project.description}</p>
                             <div className="Projects-Project-Tools">
                                 {project.tools.map(tool => (
