@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import projects from './data/projects'
 
 export default function App() {
+
   return (
     <div className="App">
       <Header />

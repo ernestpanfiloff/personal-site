@@ -5,7 +5,7 @@ export default function Projects({ projects }) {
         <>
             <div className="Projects-Title">
                 <h3>⭐ Featured projects</h3>
-                <a href="https://github.com/ernestpanfiloff?tab=repositories"><button>View more...</button></a>
+                <a href="https://github.com/ernestpanfiloff?tab=repositories" alt="Link to Github Repositories" target="_blank "><button>View more...</button></a>
             </div>
 
             <section className="Projects">
