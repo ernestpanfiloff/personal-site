@@ -47,7 +47,7 @@ export default class Hero extends React.Component {
                         </div>
                         <div className="Hero-Content-Icons-Icon">
                             <img src="cv.png" alt="" />
-                            <p>resume</p>
+                            <p><a href="public/EP_Resume.pdf" alt="download resume" target="_blank">resume</p>
                         </div>
 
                     </div>
