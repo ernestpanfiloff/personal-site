@@ -9,10 +9,10 @@ const projects = [
     },
     {
         id: 2,
-        name: "shopping-mall-checklist",
-        description: "A static website made with a purpose to practice React. Built with Vite, deployed on Netlify.",
-        url: "https://ep-mall-checklist.netlify.app/",
-        tools: ["HTML", "CSS", "JavaScript", "React"],
+        name: "unit-converter",
+        description: "Metric/Imperial Unit Convertor.",
+        url: "https://ernestpanfiloff.github.io/unit-converter//",
+        tools: ["HTML", "CSS", "JavaScript"],
         isFeatured: true
     }
 ];
