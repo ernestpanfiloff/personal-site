@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer>
-        <p>Made by Ernest with React, and deployed on Netlify.</p>
+            <p>Made by <span className="strong">Ernest</span> using <span className="strong">React</span>, and deployed on <span className="strong">Netlify</span>.</p>
         </footer>
     );
 }

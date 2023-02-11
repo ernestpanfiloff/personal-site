@@ -6,7 +6,11 @@ footer {
 }
 
 footer p {
-    color: #fff;
+    color: #BABABA;
     font-size: 0.75rem;
+    font-weight: 200;
+}
+
+.strong {
     font-weight: 300;
 }
