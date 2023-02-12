@@ -7,7 +7,7 @@ const tools = [
     {
         id: 2,
         category: "Frameworks",
-        tools: ["Bootstrap"]
+        tools: ["Bootstrap", "React"]
     },
     {
         id: 3,
