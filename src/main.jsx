@@ -15,8 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className="container">
       <Header />
       <Hero />
+      
       <Projects projects={projectsData} />
       <Tools tools={toolsData} />
+
       <Footer />
     </div>
   </React.StrictMode>
