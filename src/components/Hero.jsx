@@ -19,19 +19,19 @@ export default class Hero extends React.Component {
     render() {
         return (
             <div className="Hero">
-                <div class="Hero-Photo"><img src="me.jpg" alt="" /></div>
-                <div class="Hero-Content">
+                <div className="Hero-Photo"><img src="me.jpg" alt="" /></div>
+                <div className="Hero-Content">
                     <p className="Hero-Content-Badge"><a href="https://www.linkedin.com/in/ernestaspanfilovas/opportunities/job-opportunities/details/?profileUrn=urn%3Ali%3Afs_normalized_profile%3AACoAAAmC3r8Bn8D0uzFZGz73VCham0zhLlcPFbU" alt="Link to Linkedin" target="_blank">
                         I'm open to work!
                     </a></p>
 
 
                     <h2 className="Hero-Content-Title">
-                        <span class="wave">👋</span> Hi! I'm <span className="highlight">Ernest.</span>
+                        <span className="wave">👋</span> Hi! I'm <span className="highlight">Ernest.</span>
                     </h2>
 
                     <h2 className="Hero-Content-Title-Mobile">
-                        <span class="wave">👋</span> Hi! <br /> I'm <span className="highlight red">Ernest.</span>
+                        <span className="wave">👋</span> Hi! <br /> I'm <span className="highlight red">Ernest.</span>
                     </h2>
 
                     <p className="Hero-Content-Subtitle">I'm a front-end developer, currently based in London, England. </p>
