@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function About() {
+const About = () => {
+    console.log('Rendering About component')
     return (
         <div>
             <h1>About Me</h1>
@@ -10,4 +11,4 @@ export default function About() {
     )
 }
 
-
+export default About
